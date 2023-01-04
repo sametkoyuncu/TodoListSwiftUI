@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1824915296618BB00D1D77A /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1824914296618BB00D1D77A /* ItemModel.swift */; };
 		F186C4B629603EFE00E4281E /* TodoListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186C4B529603EFE00E4281E /* TodoListSwiftUIApp.swift */; };
 		F186C4BA29603EFF00E4281E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F186C4B929603EFF00E4281E /* Assets.xcassets */; };
 		F186C4BD29603EFF00E4281E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F186C4BC29603EFF00E4281E /* Preview Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1824914296618BB00D1D77A /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		F186C4B229603EFE00E4281E /* TodoListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F186C4B529603EFE00E4281E /* TodoListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListSwiftUIApp.swift; sourceTree = "<group>"; };
 		F186C4B929603EFF00E4281E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1824913296618AD00D1D77A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1824914296618BB00D1D77A /* ItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F186C4A929603EFE00E4281E = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		F186C4B429603EFE00E4281E /* TodoListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F1824913296618AD00D1D77A /* Models */,
 				F186C4B529603EFE00E4281E /* TodoListSwiftUIApp.swift */,
 				F186C4C32960451800E4281E /* Views */,
 				F186C4B929603EFF00E4281E /* Assets.xcassets */,
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1824915296618BB00D1D77A /* ItemModel.swift in Sources */,
 				F186C4C92960864E00E4281E /* AddView.swift in Sources */,
 				F186C4B629603EFE00E4281E /* TodoListSwiftUIApp.swift in Sources */,
 				F186C4C52960453100E4281E /* ListView.swift in Sources */,
